@@ -20,7 +20,7 @@ interface Factory
      * @param string $path
      * @param Arrayable|array $data
      * @param array $mergeData
-     * @return View
+     * @return \Elegant\Contracts\View\View
      */
     public function file($path, $data = [], $mergeData = []);
 
@@ -30,7 +30,7 @@ interface Factory
      * @param string $view
      * @param Arrayable|array $data
      * @param array $mergeData
-     * @return View
+     * @return \Elegant\Contracts\View\View
      */
     public function make($view, $data = [], $mergeData = []);
 
